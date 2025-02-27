@@ -1,0 +1,15 @@
+.footer {
+    position: relative;
+    
+    background-color: rosybrown;
+
+    &::after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 292px;
+        height: 305px;
+        content: "";
+        background-image: url(/assets/images/footer-dog.png);
+    }
+}

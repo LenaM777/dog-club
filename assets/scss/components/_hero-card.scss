@@ -1,0 +1,17 @@
+.hero-card {
+    position: relative;
+    height: 750px;
+
+    &__bcg {
+        position: absolute;
+       top: 0;
+       left: -200px;
+    }
+
+    &__main {
+        position: absolute;
+       top: 100px;
+        left: 50px;
+    }
+}
+

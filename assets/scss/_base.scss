@@ -1,5 +1,18 @@
+
+
 * {
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+section {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 24px;
 }

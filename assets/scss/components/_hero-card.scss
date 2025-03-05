@@ -6,12 +6,16 @@
         position: absolute;
        top: 0;
        left: -200px;
+      
     }
 
     &__main {
         position: absolute;
        top: 100px;
         left: 50px;
+        background-image:  url(/assets/images/hero-paw-white.png),
+  url(/assets/images/bcg-hero-yellow.png);
+  background-repeat: no-repeat;
     }
 }
 

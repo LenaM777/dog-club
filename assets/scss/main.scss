@@ -3,7 +3,13 @@
 @import './utils/variables';
 @import './base';
 
+
+@import './components/button';
+@import './components/category-card';
+@import './components/customer-card';
 @import './components/hero-card';
+@import './components/title';
+
 
 
 @import './layouts/hero-section';

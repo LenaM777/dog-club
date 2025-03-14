@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog Club</title>
     <link rel="stylesheet" href="./css/main.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
 </head>
 <body>
     <header class="header">
@@ -60,6 +64,7 @@
            <div class="container">
             <h2 class="title">Services category</h2>
             <div class="category-section__content">
+                
                 <div class="category-section__list">
                     <img src="./assets/images/grooming.svg" alt="Grooming">
                 <h4>Grooming</h4>
@@ -80,6 +85,25 @@
         <section class="customer-section">
             <div class="container">
                 <h2 class="title">Happy customer</h2>
+                <div class="customer-section__slider">
+                    <button class="customer-section__button slider-button prev">prev</button>
+                    <div class="swiper slider-customer">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide"><img src="./assets/images/custom-tom.jpg" alt="Christin & Tom"></div>
+                          <div class="swiper-slide"><img src="./assets/images/custom-anna.jpg" alt="Anna & Tobby"></div>
+                          <div class="swiper-slide"><img src="./assets/images/custom-sindy.jpg" alt="Sindy & Kitch"></div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <button class="customer-section__button slider-button next">next</button>
+                </div>
+
+                
+
+
                  <ul class="customer-section__list">
                 <li>
                     <img src="./assets/images/custom-tom.jpg" alt="Christin & Tom">
@@ -137,6 +161,8 @@
             
         </nav>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper-category.js"></script>
+    <script src="./js/swiper-customer.js"></script>
 </body>
 </html>

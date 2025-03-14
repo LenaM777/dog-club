@@ -1,0 +1,31 @@
+.contact-section {
+    position: relative;
+    margin-bottom: 400px;
+
+    &::before {
+        position: absolute;
+        top: 190px;
+        left: 0;
+        width: 488px;
+        height: 520px;
+        background-image: url(/assets/images/terier-dog-form.png);
+        background-repeat: no-repeat;
+        content: "";
+    }
+
+    &::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 322px;
+        height: 752px;
+        background-image: url(/assets/images/big-dog-form.png);
+        background-repeat: no-repeat;
+        content: "";
+    }
+
+    &__info {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}

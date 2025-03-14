@@ -1,0 +1,19 @@
+.footer {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+        width: 292px;
+        height: 306px;
+        background-image: url(/assets/images/footer-dog.png);
+        background-repeat: no-repeat;
+        content: "";
+    }
+    
+    &__nav {
+        display: flex;   
+    }
+    
+}

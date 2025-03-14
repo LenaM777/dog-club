@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
 
-* {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
@@ -13,4 +15,5 @@ body {
     color: var(--color-primary-dark);
     background-color: var(--color-brand-light);
     margin: 0;
+    min-width: 100%;
 }

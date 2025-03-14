@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__menu {
+        display: flex;
+        gap: 48px;
+    }
+
+    &__buttons {
+        display: flex;
+        gap: 24px;
+    }
+}

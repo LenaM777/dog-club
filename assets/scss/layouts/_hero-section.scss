@@ -1,6 +1,10 @@
 .hero-section {
-    display: flex;
-    gap: 64px;
+
+    &__container {
+        display: flex;
+        gap: 64px;
+    }
+    
 
     &__title {
         font-family: 'Rowdies';

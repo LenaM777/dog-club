@@ -5,12 +5,12 @@
         gap: 24px;
     }
 
-    &__list {
-        display: flex;
-        gap: 24px;
-    }
-
+    
     &__link {
+        color: var(--color-brand-dark);
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: 5%;
         display: flex;
         gap: 10px;
         align-items: end;

@@ -1,7 +1,14 @@
 .customer-section {
 
+   &__slider {
+    display: flex;
+    align-items: center;
+    gap: 24px; 
+   }
+
+   
+
     &__list {
-        display: flex;
-        gap: 16px;
+        margin-bottom: 40px;
     }
 }

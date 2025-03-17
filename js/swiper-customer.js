@@ -1,7 +1,7 @@
 new Swiper('.slider-customer', {
     loop: true,
     slidesPerView: 1,
-    spaceBetween: 20,
+    spaceBetween: 16,
     breakpoints: {
         768: {
           slidesPerView: 2,

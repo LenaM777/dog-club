@@ -13,7 +13,9 @@ new Swiper('.slider-customer', {
   
     
     pagination: {
-      el: '.swiper-pagination',
+      el: '.pagination',
+      bulletClass: 'pagination__button',
+      bulletActiveClass: 'pagination__button--active',
     },
   
     

@@ -24,7 +24,7 @@
             </ul>
             <div class="header__buttons">
                 <a href="">cart</a>
-                <button>Contact us</button>
+                <button class="button" type="submit">Contact us</button>
                 <button>Burger</button>
             </div>
         </nav>
@@ -36,7 +36,7 @@
                     <div class="hero-section__info">
                         <h1 class="hero-section__title">Taking care for your Smart Dog!</h1>
                         <p>Human–canine bonding is the relationship between dogs and humans</p>
-                        <button>Explore More</button>
+                        <button class="button" type="button">Explore More</button>
                     </div>
                     <div class="hero-section__card hero-card">
                         <img class="hero-card__bcg-mob" src="./assets/images/bcg-main-mobile.png" alt="bcg main-mobile">
@@ -55,7 +55,7 @@
                     <div class="about-section__info">
                         <h2 class="title">Less talk and more walk</h2>
                         <p>Sometimes our career, lifestyle, or routines can make it difficult to provide your pet with the recommended amount of exercise that they need. Which is why, it’s okay to use an extra hand in walking dogs so they are in perfect shape, mentally and physically.</p>
-                        <button>Explore More</button>
+                        <button class="button" type="button">Explore More</button>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,11 @@
             <div class="container">
                 <h2 class="title">Happy customer</h2>
                 <div class="customer-section__slider">
-                    <button class="customer-section__button slider-button prev">prev</button>
+                    <button class="customer-section__button slider-button next" type="button">
+                        <svg width="16" height="16">
+                            <use href="./assets/images/icons.svg#icon-arrow-slider"></use>
+                        </svg>
+                    </button>
                     <div class="swiper slider-customer">
                         <div class="customer-section__list swiper-wrapper">
                           <div class="swiper-slide">
@@ -209,9 +213,16 @@
                             </article>
                           </div>
                         </div>
-                        <div class="swiper-pagination"></div>
+                        <div class="pagination">
+                            <span class="pagination__button"></span>
+                            <span class="pagination__button"></span>
+                        </div>
                     </div>
-                    <button class="customer-section__button slider-button next">next</button>
+                    <button class="customer-section__button slider-button prev" type="button">
+                        <svg width="16" height="16">
+                            <use href="./assets/images/icons.svg#icon-arrow-slider"></use>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </section>
@@ -224,7 +235,7 @@
                     <input class="input input__icon input__icon--pet-name" type="text" id="pet-name" name="pet-name" placeholder="Pet name">
                     <input class="input input__icon input__icon--user-tel" type="tel" id="user-tel" name="user-tel" placeholder="Your phone">
                     <input class="input input__icon input__icon--user-email" type="email" id="user-email" name="user-email" placeholder="Your email">
-                    <button>Contact us</button>
+                    <button class="button" type="submit">Contact us</button>
                     <div>
                         <input type="checkbox" id="privacy" name="privacy">
                         <label for="privacy">I agree to the privacy policy</label>
@@ -254,7 +265,7 @@
                 <form class="footer-form">
                     <input class="input input__icon input__icon--user-email" type="email" id="user-email" name="user-email" placeholder="Your email">
                     <input class="input" type="number" id="cmc-number" name="cmc-number" placeholder="Your cmc">
-                    <button>Contact us</button>
+                    <button class="button" type="submit">Contact us</button>
                     <div>
                         <input type="checkbox" id="privacy" name="privacy">
                         <label for="privacy">I agree to the privacy policy</label>

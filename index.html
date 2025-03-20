@@ -220,10 +220,10 @@
                 <h2 class="title contact-section__title">Our experts will take care of your friend</h2>
                 <p class="contact-section__text">Fill out the form so we can contact you!</p>
                 <form class="contact-form">
-                    <input class="input" type="text" id="user-name" name="user-name" placeholder="Your name">
-                    <input class="input" type="text" id="pet-name" name="pet-name" placeholder="Pet name">
-                    <input class="input" type="tel" id="user-tel" name="user-tel" placeholder="Your phone">
-                    <input class="input" type="email" id="user-email" name="user-email" placeholder="Your email">
+                    <input class="input input__icon input__icon--user-name" type="text" id="user-name" name="user-name" placeholder="Your name">
+                    <input class="input input__icon input__icon--pet-name" type="text" id="pet-name" name="pet-name" placeholder="Pet name">
+                    <input class="input input__icon input__icon--user-tel" type="tel" id="user-tel" name="user-tel" placeholder="Your phone">
+                    <input class="input input__icon input__icon--user-email" type="email" id="user-email" name="user-email" placeholder="Your email">
                     <button>Contact us</button>
                     <div>
                         <input type="checkbox" id="privacy" name="privacy">
@@ -250,11 +250,16 @@
                 <li><a href="">Happy customer</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
-            <div>
-                <p>Your email</p>
-                <p> Your cmc</p>
-                <button>Contact us</button>
-                <p>I agree to the privacy policy</p>
+            <div class="footer__contacts">
+                <form class="footer-form">
+                    <input class="input input__icon input__icon--user-email" type="email" id="user-email" name="user-email" placeholder="Your email">
+                    <input class="input" type="number" id="cmc-number" name="cmc-number" placeholder="Your cmc">
+                    <button>Contact us</button>
+                    <div>
+                        <input type="checkbox" id="privacy" name="privacy">
+                        <label for="privacy">I agree to the privacy policy</label>
+                    </div>
+                </form>
             </div>
             
         </nav>

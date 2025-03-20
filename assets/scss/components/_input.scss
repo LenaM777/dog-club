@@ -1,11 +1,12 @@
 .input {
     width: 100%;
-    padding: 8px 40px;
+    height: 48px;
+    padding: 12px 40px 12px 40px;
     border: 1px solid var(--color-brand-dark);
     border-radius: 8px;
     margin-bottom: 24px;
-    
 
+   
     &::placeholder {
         font-size: 18px;
         color: var(--color-brand-dark);
@@ -13,6 +14,27 @@
 
     &:focus::placeholder {
         color: var(--color-primary-dark);
+    }
+
+    &__icon {
+
+        padding: 12px 40px 12px 80px;
+        
+        &--user-name {
+            background: url(/assets/images/icons/form-username.svg) no-repeat 40px center;
+        }
+
+        &--pet-name {
+            background: url(/assets/images/icons/form-petsname.svg) no-repeat 40px center;
+        }
+
+        &--user-tel {
+            background: url(/assets/images/icons/form-tel.svg) no-repeat 40px center;
+        }
+
+        &--user-email {
+            background: url(/assets/images/icons/form-mail.svg) no-repeat 40px center;
+        }
     }
 
 }

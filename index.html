@@ -12,22 +12,32 @@
 </head>
 <body>
     <header class="header">
+       <div class="container">
         <nav class="header__nav">
             <a href="">
                 <img src="./assets/images/logo.svg" alt="Logo">
             </a>
             <ul class="header__menu">
-                <li><a href="">Less talk</a></li>
-                <li><a href="">Services category</a></li>
-                <li><a href="">Happy customer</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a class="link" href="">Less talk</a></li>
+                <li><a class="link" href="">Services category</a></li>
+                <li><a class="link" href="">Happy customer</a></li>
+                <li><a class="link" href="">Contact</a></li>
             </ul>
             <div class="header__buttons">
-                <a href="">cart</a>
-                <button class="button" type="submit">Contact us</button>
-                <button>Burger</button>
+                <a href="">
+                    <svg width="40" height="40">
+                        <use href="./assets/images/icons.svg#icon-cart"></use>
+                    </svg>
+                </a>
+                <button class="button" type="button">Contact us</button>
+                <button>
+                    <svg width="16" height="16">
+                        <use href="./assets/images/icons.svg#icon-burger"></use>
+                    </svg>
+                </button>
             </div>
         </nav>
+       </div>
     </header>
     <main class="main">
         <section class="hero-section">
@@ -118,7 +128,11 @@
                 </div>
                 <div class="category-section__link">
                     <p>more services</p>
-                    <a href="">arrow</a>
+                    <a href="">
+                        <svg width="40" height="16">
+                            <use href="./assets/images/icons.svg#icon-arrow-more"></use>
+                        </svg>
+                    </a>
                 </div>
             </div>
            </div>
@@ -238,42 +252,54 @@
                     <button class="button" type="submit">Contact us</button>
                     <div>
                         <input type="checkbox" id="privacy" name="privacy">
-                        <label for="privacy">I agree to the privacy policy</label>
+                        <label class="input__label" for="privacy">I agree to the privacy policy</label>
                     </div>
                 </form>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <nav class="footer__nav">
-            <div>
-                <a href="">
-                    <img src="./assets/images/logo.svg" alt="Logo">
-                </a>
-                <div class="footer__socials">
-                    <a href="">insta</a>
-                    <a href="">fb</a>
-                </div>
-            </div>
-            <ul class="footer__menu">
-                <li><a href="">Less talk</a></li>
-                <li><a href="">Services category</a></li>
-                <li><a href="">Happy customer</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-            <div class="footer__contacts">
-                <form class="footer-form">
-                    <input class="input input__icon input__icon--user-email" type="email" id="user-email" name="user-email" placeholder="Your email">
-                    <input class="input" type="number" id="cmc-number" name="cmc-number" placeholder="Your cmc">
-                    <button class="button" type="submit">Contact us</button>
-                    <div>
-                        <input type="checkbox" id="privacy" name="privacy">
-                        <label for="privacy">I agree to the privacy policy</label>
+        <div class="container">
+           <div class="footer__container">
+             <nav class="footer__nav">
+                <div>
+                    <a href="">
+                        <img src="./assets/images/logo.svg" alt="Logo">
+                    </a>
+                    <div class="footer__socials">
+                        <a href="">
+                            <svg width="40" height="40">
+                                <use href="./assets/images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg width="40" height="40">
+                                <use href="./assets/images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
                     </div>
-                </form>
-            </div>
-            
-        </nav>
+                </div>
+                <ul class="footer__menu">
+                    <li><a class="link" href="">Less talk</a></li>
+                    <li><a class="link" href="">Services category</a></li>
+                    <li><a class="link" href="">Happy customer</a></li>
+                    <li><a class="link" href="">Contact</a></li>
+                </ul>
+                <div class="footer__contacts">
+                    <form class="footer-form">
+                        <input class="input input__icon input__icon--user-email" type="email" id="user-email" name="user-email" placeholder="Your email">
+                        <input class="input" type="text" id="cmc" name="cmc" placeholder="Your cmc">
+                        <button class="button" type="submit">Contact us</button>
+                        <div>
+                            <input type="checkbox" id="privacy" name="privacy">
+                            <label class="input__label" for="privacy">I agree to the privacy policy</label>
+                        </div>
+                    </form>
+                </div>
+                
+            </nav>
+           </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/swiper-category.js"></script>

@@ -8,6 +8,7 @@
 </head>
 <body>
     <header class="header">
+       <div class="container">
         <nav class="header__nav">
             <a href="">
                 <img src="./assets/images/logo.svg" alt="Logo Dog Club">
@@ -32,33 +33,41 @@
                 </button>
             </div>
         </nav>
+       </div>
     </header>
     <main>
         <section class="hero-section">
-            <div class="hero-section__info">
-                <h1 class="hero-section__title">Taking care for your Smart Dog!</h1>
-                <p>Human–canine bonding is the relationship between dogs and humans</p>
-                <button class="button" type="button">Explore More</button>
+           <div class="container">
+            <div class="hero-section__container">
+                <div class="hero-section__info">
+                    <h1 class="hero-section__title">Taking care for your Smart Dog!</h1>
+                    <p>Human–canine bonding is the relationship between dogs and humans</p>
+                    <button class="button" type="button">Explore More</button>
+                </div>
+                <div class="hero-section__card hero-card">
+                    <img class="hero-card__desktop" src="./assets/images/bcg-main-desktop.png" alt="">
+                    <img class="hero-card__main" src="./assets/images/hero-dog.png" alt="">
+                </div>
             </div>
-            <div class="hero-section__card hero-card">
-                <img class="hero-card__desktop" src="./assets/images/bcg-main-desktop.png" alt="">
-                <img class="hero-card__main" src="./assets/images/hero-dog.png" alt="">
-            </div>
-            
+           </div> 
         </section>
         <section class="about-section">
-            <div class="about-section__card about-card">
-               
-                <img class="about-card__main" src="./assets/images/shetland.png" alt="">
+           <div class="container">
+            <div class="about-section__container">
+                <div class="about-section__card about-card">
+                    <img class="about-card__main" src="./assets/images/shetland.png" alt="">
+                </div>
+                <div class="about-section__info">
+                    <h2 class="title">Less talk and more walk</h2>
+                    <p>Sometimes our career, lifestyle, or routines can make it difficult to provide your pet with the recommended amount of exercise that they need. Which is why, it’s okay to use an extra hand in walking dogs so they are in perfect shape, mentally and physically.</p>
+                    <button class="button" type="button">Explore More</button>
+                </div>
             </div>
-            <div class="about-section__info">
-                <h2 class="title">Less talk and more walk</h2>
-                <p>Sometimes our career, lifestyle, or routines can make it difficult to provide your pet with the recommended amount of exercise that they need. Which is why, it’s okay to use an extra hand in walking dogs so they are in perfect shape, mentally and physically.</p>
-                <button class="button" type="button">Explore More</button>
-            </div>
+           </div>
         </section>
         <section class="category-section">
-            <h2 class="title">Services category</h2>
+           <div class="container">
+            <h2 class="title title--centered">Services category</h2>
             <div><img src="./assets/images/grooming.svg" alt="">
                 <p>Grooming</p></div>
             
@@ -71,9 +80,11 @@
                     <use href="./assets/images/icons.svg#icon-arrow-more"></use>
                 </svg>
             </a>
+           </div>
         </section>
         <section class="customer-section">
-            <h2 class="title">Happy customer</h2>
+           <div class="container">
+            <h2 class="title title--centered">Happy customer</h2>
             <div>
                 <img src="./assets/images/custom-tom.jpg" alt="">
                 <p>Christin & Tom
@@ -93,45 +104,51 @@
                     Great job with the trainer!
                 </p>
             </div>
+           </div>
         </section>
         <section class="contact-section">
-            <h2 class="title">Our experts will take care of your friend</h2>
-            <p>Fill out the form so we can contact you!</p>
-            <button class="button" type="submit">Contact us</button>
-            <p>I agree to the privacy policy</p>
-        </section>
-    </main> 
-    <footer class="footer">
-        <nav class="footer__nav">
-            <div>
-                <a href="">
-                    <img src="./assets/images/logo.svg" alt="Logo Dog Club">
-                </a>
-                <div class="footer__social">
-                    <a href="">
-                        <svg width="40" height="40">
-                            <use href="./assets/images/icons.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                    <a href="">
-                        <svg width="40" height="40">
-                            <use href="./assets/images/icons.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <ul class="footer__menu">
-                <li><a class="link" href="">Less talk</a></li>
-                <li><a class="link" href="">Services category</a></li>
-                <li><a class="link" href="">Happy customer</a></li>
-                <li><a class="link" href="">Contact</a></li>
-            </ul>
-            <div>
+            <div class="container">
+                <h2 class="title title--centered">Our experts will take care of your friend</h2>
+                <p>Fill out the form so we can contact you!</p>
                 <button class="button" type="submit">Contact us</button>
                 <p>I agree to the privacy policy</p>
             </div>
-            
-        </nav>
+        </section>
+    </main> 
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer__nav">
+                <div>
+                    <a href="">
+                        <img src="./assets/images/logo.svg" alt="Logo Dog Club">
+                    </a>
+                    <div class="footer__social">
+                        <a href="">
+                            <svg width="40" height="40">
+                                <use href="./assets/images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg width="40" height="40">
+                                <use href="./assets/images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <ul class="footer__menu">
+                    <li><a class="link" href="">Less talk</a></li>
+                    <li><a class="link" href="">Services category</a></li>
+                    <li><a class="link" href="">Happy customer</a></li>
+                    <li><a class="link" href="">Contact</a></li>
+                </ul>
+                <div>
+                    <button class="button" type="submit">Contact us</button>
+                    <p>I agree to the privacy policy</p>
+                </div>
+                
+            </nav>
+        </div>
+        
     </footer>
     
 </body>

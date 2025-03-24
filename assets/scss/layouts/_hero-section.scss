@@ -1,5 +1,9 @@
 .hero-section {
-    display: flex;
+
+    &__container {
+        display: flex;
+    }
+
 
     &__info {
         max-width: 635px;

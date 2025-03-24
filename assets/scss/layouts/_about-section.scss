@@ -1,6 +1,11 @@
 .about-section {
-    display: flex;
-    gap: 24px;
+
+    &__container {
+        display: flex;
+        gap: 24px;
+    }
+
+    
 
     &__info {
         max-width: 640px;

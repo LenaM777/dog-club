@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog Club</title>
     <link rel="stylesheet" href="./css/main.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 <body>
     <header class="header">
@@ -85,43 +89,107 @@
         <section class="customer-section">
            <div class="container">
             <h2 class="title title--centered">Happy customer</h2>
-            <article class="customer-card">
-                <img class="customer-card__image" src="./assets/images/custom-tom.jpg" alt="Christin & Tom">
-                <div class="customer-card__info">
-                    <h4 class="customer-card__title">Christin & Tom</h4>
-                    <p class="customer-card__text">Love the overall workout experience!</p>
-                    <div class="customer-card__raiting">
-                        <img src="./assets/images/icons-main/five-bons.svg" alt="Raiting">
-                        <p class="customer-card__mark">5/5</p>
+            <div class="customer-section__slider">
+                <div class="swiper slider-customer">
+                    <button class="customer-section__button slider-button next" type="button">
+                        <svg width="16" height="16">
+                            <use href="./assets/images/icons.svg#icon-arrow-slider"></use>
+                        </svg>
+                    </button>
+                    <!-- Additional required wrapper -->
+                    <div class="customer-section__list swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <article class="customer-card">
+                            <img class="customer-card__image" src="./assets/images/custom-tom.jpg" alt="Christin & Tom">
+                            <div class="customer-card__info">
+                                <h4 class="customer-card__title">Christin & Tom</h4>
+                                <p class="customer-card__text">Love the overall workout experience!</p>
+                                <div class="customer-card__raiting">
+                                    <img src="./assets/images/icons-main/five-bons.svg" alt="Raiting">
+                                    <p class="customer-card__mark">5/5</p>
+                                </div>
+                            </div>
+                        </article>
+                      </div>
+                      <div class="swiper-slide">
+                        <article class="customer-card">
+                            <img class="customer-card__image" src="./assets/images/custom-anna.jpg" alt="Anna & Tobby">
+                            <div class="customer-card__info">
+                                <h4 class="customer-card__title">Anna & Tobby</h4>
+                                <p class="customer-card__text">Amazing Products & Delivery on time.</p>
+                                <div class="customer-card__raiting">
+                                    <img src="./assets/images/icons-main/four-bons.svg" alt="Raiting">
+                                    <p class="customer-card__mark">4/5</p>
+                                </div>
+                            </div>
+                        </article>
+                      </div>
+                      <div class="swiper-slide">
+                        <article class="customer-card">
+                            <img class="customer-card__image" src="./assets/images/custom-sindy.jpg" alt="Sindy & Kitch">
+                            <div class="customer-card__info">
+                                <h4 class="customer-card__title">Sindy & Kitch</h4>
+                                <p class="customer-card__text">Great job with the trainer!</p>
+                                <div class="customer-card__raiting">
+                                    <img src="./assets/images/icons-main/five-bons.svg" alt="Raiting">
+                                    <p class="customer-card__mark">5/5</p>
+                                </div>
+                            </div>
+                        </article>
+                      </div>
+                      <div class="swiper-slide">
+                        <article class="customer-card">
+                            <img class="customer-card__image" src="./assets/images/custom-tom.jpg" alt="Christin & Tom">
+                            <div class="customer-card__info">
+                                <h4 class="customer-card__title">Christin & Tom</h4>
+                                <p class="customer-card__text">Love the overall workout experience!</p>
+                                <div class="customer-card__raiting">
+                                    <img src="./assets/images/icons-main/five-bons.svg" alt="Raiting">
+                                    <p class="customer-card__mark">5/5</p>
+                                </div>
+                            </div>
+                        </article>
+                      </div>
+                      <div class="swiper-slide">
+                        <article class="customer-card">
+                            <img class="customer-card__image" src="./assets/images/custom-anna.jpg" alt="Anna & Tobby">
+                            <div class="customer-card__info">
+                                <h4 class="customer-card__title">Anna & Tobby</h4>
+                                <p class="customer-card__text">Amazing Products & Delivery on time.</p>
+                                <div class="customer-card__raiting">
+                                    <img src="./assets/images/icons-main/four-bons.svg" alt="Raiting">
+                                    <p class="customer-card__mark">4/5</p>
+                                </div>
+                            </div>
+                        </article>
+                      </div>
+                      <div class="swiper-slide">
+                        <article class="customer-card">
+                            <img class="customer-card__image" src="./assets/images/custom-sindy.jpg" alt="Sindy & Kitch">
+                            <div class="customer-card__info">
+                                <h4 class="customer-card__title">Sindy & Kitch</h4>
+                                <p class="customer-card__text">Great job with the trainer!</p>
+                                <div class="customer-card__raiting">
+                                    <img src="./assets/images/icons-main/five-bons.svg" alt="Raiting">
+                                    <p class="customer-card__mark">5/5</p>
+                                </div>
+                            </div>
+                        </article>
+                      </div>
+                      
                     </div>
-                </div>
-            </article>
-
-            <article class="customer-card">
-                <img class="customer-card__image" src="./assets/images/custom-anna.jpg" alt="Anna & Tobby">
-                <div class="customer-card__info">
-                    <h4 class="customer-card__title">Anna & Tobby</h4>
-                    <p class="customer-card__text">Amazing Products & Delivery on time.</p>
-                    <div class="customer-card__raiting">
-                        <img src="./assets/images/icons-main/four-bons.svg" alt="Raiting">
-                        <p class="customer-card__mark">4/5</p>
+                    <div class="pagination">
+                        <span class="pagination__button"></span>
+                        <span class="pagination__button"></span>
                     </div>
-                </div>
-            </article>
-
-            <article class="customer-card">
-                <img class="customer-card__image" src="./assets/images/custom-sindy.jpg" alt="Sindy & Kitch">
-                <div class="customer-card__info">
-                    <h4 class="customer-card__title">Sindy & Kitch</h4>
-                    <p class="customer-card__text">Great job with the trainer!</p>
-                    <div class="customer-card__raiting">
-                        <img src="./assets/images/icons-main/five-bons.svg" alt="Raiting">
-                        <p class="customer-card__mark">5/5</p>
-                    </div>
-                </div>
-            </article>
-            
-                
+                  </div>
+                  <button class="customer-section__button slider-button prev" type="button">
+                    <svg width="16" height="16">
+                        <use href="./assets/images/icons.svg#icon-arrow-slider"></use>
+                    </svg>
+                  </button>
+            </div>      
            </div>
         </section>
         <section class="contact-section">
@@ -168,6 +236,8 @@
         </div>
         
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper-category.js"></script>
+    <script src="./js/swiper-customer.js"></script>
 </body>
 </html>

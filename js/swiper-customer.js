@@ -1,6 +1,4 @@
 const swiper = new Swiper('.slider-customer', {
-    // Optional parameters
-    
     loop: true,
     slidesPerView: 1,
     spaceBetween: 16,
@@ -19,11 +17,8 @@ const swiper = new Swiper('.slider-customer', {
         bulletActiveClass: 'pagination__button--active',
       },
   
-    // Navigation arrows
     navigation: {
       nextEl: '.slider-button.next',
       prevEl: '.slider-button.prev',
     },
-  
-    
   });

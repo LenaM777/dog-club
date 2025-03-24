@@ -1,0 +1,21 @@
+.category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    padding: 46px 72px;
+    gap: 24px;
+
+    &__image {
+        width: 96px;
+        height: 96px;
+    }
+
+    &__title {
+        font-size: 22px;
+        font-weight: 600;
+        color: var(--color-brand-dark);
+        margin: 0;
+    }
+}

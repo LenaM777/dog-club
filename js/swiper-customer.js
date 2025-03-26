@@ -1,4 +1,4 @@
-const swiper = new Swiper('.slider-customer', {
+new Swiper('.slider-customer', {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 16,

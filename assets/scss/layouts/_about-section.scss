@@ -1,13 +1,19 @@
 .about-section {
+    padding: 8px 0 16px;
+
 
     &__container {
         display: flex;
+        align-items: center;
         gap: 24px;
     }
 
-    
-
     &__info {
         max-width: 640px;
+        padding: 156px 0;
+    }
+
+    &__title {
+        margin: 0 auto 40px;
     }
 }

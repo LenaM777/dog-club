@@ -1,4 +1,9 @@
 .category-section {
+    padding: 16px 0 48px;
+
+    &__title {
+        margin: 0 auto 48px;
+    }
 
     &__content {
         display: flex;
@@ -12,7 +17,7 @@
         letter-spacing: 5%;
         display: flex;
         gap: 10px;
-        align-items: end;
-        justify-content: end;
+        align-items: flex-end;
+        min-width: 172px;
     }
 }

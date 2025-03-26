@@ -59,6 +59,11 @@
            <div class="container">
             <div class="about-section__container">
                 <div class="about-section__card about-card">
+                    <div class="about-card__video video-button">
+                        
+                        <img class="video-button__icon" src="./assets/images/icons-main/play-button.svg" alt="">
+                        <p class="video-button__text">Learn More</p>
+                    </div>
                     <img class="about-card__main" src="./assets/images/shetland.png" alt="">
                 </div>
                 <div class="about-section__info">
@@ -254,7 +259,7 @@
                         <input class="input input__contact input__contact-icon input__contact-icon--user-tel" type="tel" id="user-tel" name="user-tel" placeholder="Your phone">
                         <input class="input input__contact input__contact-icon input__contact-icon--user-email" type="email" id="user-email" name="user-email" placeholder="Your email">
                         <button class="button" type="submit">Contact us</button>
-                        <div>
+                        <div class="form-terms">
                             <input class="input__checkbox" type="checkbox" id="privacy" name="privacy">
                             <label class="input__label" for="privacy">I agree to the privacy policy</label>
                         </div>
@@ -289,15 +294,18 @@
                     <li><a class="link" href="">Happy customer</a></li>
                     <li><a class="link" href="">Contact</a></li>
                 </ul>
-                <form class="footer-form">
-                    <input class="input input__footer input__footer-icon input__footer-icon--user-email" type="email" id="user-email" name="user-email" placeholder="Your email">
-                    <input class="input input__footer" type="text" id="cmc" name="cmc" placeholder="Your cmc">
-                    <button class="button" type="submit">Contact us</button>
-                    <div>
-                        <input class="input__checkbox" type="checkbox" id="privacy" name="privacy">
-                        <label class="input__label" for="privacy">I agree to the privacy policy</label>
-                    </div>
-                </form>
+                <div class="footer__contacts">
+                    <form class="footer-form">
+                        <input class="input input__footer input__footer-icon input__footer-icon--user-email" type="email" id="user-email" name="user-email" placeholder="Your email">
+                        <input class="input input__footer" type="text" id="cmc" name="cmc" placeholder="Your cmc">
+                        <button class="button button__footer" type="submit">Contact us</button>
+                        <div class="form-terms">
+                            <input class="input__checkbox" type="checkbox" id="privacy" name="privacy">
+                            <label class="input__label" for="privacy">I agree to the privacy policy</label>
+                        </div>
+                    </form>
+                </div>
+                
                 
             </nav>
         </div>

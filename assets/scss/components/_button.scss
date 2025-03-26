@@ -13,4 +13,9 @@
     &:hover {
         background-color: var( --color-brand-normal);
     }
+
+    &__footer {
+        padding: 8px 24px;
+        font-size: 16px;
+    }
 }

@@ -1,0 +1,9 @@
+.about-card {
+    position: relative;
+
+    &__video {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

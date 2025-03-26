@@ -1,13 +1,32 @@
 .footer {
-    padding: 36px 0;
+    padding: 32px 392px 50px 80px;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        top: 0;
+        right: 100px;
+        width: 292px;
+        height: 306px;
+        background-image: url(/assets/images/footer-dog.png);
+        background-repeat: no-repeat;
+        content: "";
+    }
     
 
     &__nav {
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: space-between;
     }
 
-   
+    &__contacts {
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
 
 }

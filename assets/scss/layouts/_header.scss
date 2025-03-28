@@ -6,16 +6,57 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
     }
 
     &__menu {
-        display: flex;
-        gap: 48px;
+        display: none;
+
+        @media screen and (min-width: $bp-desktop) {
+            display: flex;
+            gap: 48px;
+        }
+        
     }
 
     &__buttons {
         display: flex;
         align-items: center;
         gap: 24px;
+    }
+
+    &__cart {
+        display: block;
+        width: 24px;
+        height: 24px;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+
+        @media screen and (min-width: $bp-tablet) {
+            width: 40px;
+            height: 40px;
+        }
+
+    }
+
+    &__button {
+        display: none;
+
+        @media screen and (min-width: $bp-tablet) {
+            display: block;
+        }
+    }
+
+    &__burger {
+        width: 24px;
+        height: 24px;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+
+        @media screen and (min-width: $bp-tablet) {
+            display: none;
+        }
     }
 }

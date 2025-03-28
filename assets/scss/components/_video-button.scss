@@ -1,26 +1,42 @@
 .video-button {
-   background-image: url(/assets/images/video-bcg.png);
-   background-repeat: no-repeat;
-   padding: 24px 40px;
-   width: 162px;
-   height: 124px;
+   background-image: url(/assets/images/video-bcg-mob.png);
+   //background-repeat: no-repeat;
+   background-size: contain;
+   padding: 14px 16px;
+   width: 72px;
+   height: 72px;
    text-align: center;
    
-  
+   @media screen and (min-width: $bp-tablet) {
+    background-image: url(/assets/images/video-bcg-desk.png);
+    width: 162px;
+   height: 124px;
+   padding: 24px 40px;
+   }
    
 
 
    &__icon {
-       width: 48px;
+       width: 24px;
+       height: 24px;
+
+       @media screen and (min-width: $bp-tablet) {
+        width: 48px;
        height: 48px;
+       }
 
    }
 
    &__text {
     margin: 0;
-    font-size: 16px;
+    font-size: 8px;
+    font-weight: 300;
     line-height: 1;
     color: azure;
+
+    @media screen and (min-width: $bp-tablet) {
+        font-size: 16px;
+    }
 
    }
 

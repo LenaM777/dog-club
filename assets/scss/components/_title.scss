@@ -1,10 +1,15 @@
 .title {
     font-family: 'Rowdies';
-    font-size: 56px;
+    font-size: 32px;
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1;
 
     &--centered {
         text-align: center;
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+        font-size: 56px;
+        line-height: 1.2;
     }
 }

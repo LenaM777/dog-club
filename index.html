@@ -24,14 +24,14 @@
                 <li><a class="link" href="">Contact</a></li>
             </ul>
             <div class="header__buttons">
-                <button type="button">
-                    <svg width="40" height="40">
+                <a class="header__cart" type="button">
+                    <svg width="24" height="24">
                         <use href="./assets/images/icons.svg#icon-cart"></use>
                     </svg>
-                </button>
-                <button class="button" type="button">Contact us</button>
+                </a>
+                <button class="header__button button" type="button">Contact us</button>
                 <button class="header__burger" type="button">
-                    <svg width="16" height="16">
+                    <svg width="24" height="24">
                         <use href="./assets/images/icons.svg#icon-burger"></use>
                     </svg>
                 </button>
@@ -49,6 +49,7 @@
                     <button class="button" type="button">Explore More</button>
                 </div>
                 <div class="hero-section__card hero-card">
+                    <img class="hero-card__mobile" src="./assets/images/bcg-main-mobile.png" alt="">
                     <img class="hero-card__desktop" src="./assets/images/bcg-main-desktop.png" alt="">
                     <img class="hero-card__main" src="./assets/images/hero-dog.png" alt="">
                 </div>
@@ -58,6 +59,11 @@
         <section class="about-section">
            <div class="container">
             <div class="about-section__container">
+                <div class="about-section__info">
+                    <h2 class="about-section__title title">Less talk and more walk</h2>
+                    <p class="about-section__text">Sometimes our career, lifestyle, or routines can make it difficult to provide your pet with the recommended amount of exercise that they need. Which is why, it’s okay to use an extra hand in walking dogs so they are in perfect shape, mentally and physically.</p>
+                    <button class="button" type="button">Explore More</button>
+                </div>
                 <div class="about-section__card about-card">
                     <div class="about-card__video video-button">
                         
@@ -66,11 +72,7 @@
                     </div>
                     <img class="about-card__main" src="./assets/images/shetland.png" alt="">
                 </div>
-                <div class="about-section__info">
-                    <h2 class="about-section__title title">Less talk and more walk</h2>
-                    <p>Sometimes our career, lifestyle, or routines can make it difficult to provide your pet with the recommended amount of exercise that they need. Which is why, it’s okay to use an extra hand in walking dogs so they are in perfect shape, mentally and physically.</p>
-                    <button class="button" type="button">Explore More</button>
-                </div>
+                
             </div>
            </div>
         </section>
@@ -133,7 +135,7 @@
                 <div class="category-section__link">
                     <p>more services</p>
                     <a href="">
-                        <svg width="40" height="40">
+                        <svg width="40" height="20">
                             <use href="./assets/images/icons.svg#icon-arrow-more"></use>
                         </svg>
                     </a>
@@ -150,11 +152,8 @@
                         <use href="./assets/images/icons.svg#icon-arrow-slider"></use>
                     </svg>
                 </button>
-                <div class="swiper slider-customer">
-                    
-                    <!-- Additional required wrapper -->
+                <div class="swiper slider-customer customer-section__container">
                     <div class="customer-section__list swiper-wrapper">
-                      <!-- Slides -->
                       <div class="swiper-slide">
                         <article class="customer-card">
                             <img class="customer-card__image" src="./assets/images/custom-tom.jpg" alt="Christin & Tom">

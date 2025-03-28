@@ -1,17 +1,46 @@
 .hero-card {
     position: relative;
-    height: 800px;
+
+    @media screen and (min-width: $bp-tablet) {
+        height: 800px;
+    }
+
+   &__mobile {
+        display: block;
+        position: absolute;
+        top: -130px;
+        left: 0;
+
+       @media screen and (min-width: $bp-tablet)  {
+        display: none;
+    }
+   }
+
+   
 
     &__desktop {
-        position: absolute;
+        display: none;
+
+        @media screen and (min-width: $bp-tablet) {
+            display: block;
+            position: absolute;
         top: 150px;
         left: -220px;
+        }
+
+        
     }
 
     &__main {
-        position: absolute;
-        top: 234px;
-        left: 10px;
-        background-image: url(/assets/images/hero-paw-white.png), url(/assets/images/bcg-hero-yellow.png);
-    }
+        display: none;
+
+        @media screen and (min-width: $bp-tablet) {
+            display: block;
+            position: absolute;
+            top: 234px;
+            left: 10px;
+            background-image: url(/assets/images/hero-paw-white.png), url(/assets/images/bcg-hero-yellow.png);
+        
+        }
+       }
 }
